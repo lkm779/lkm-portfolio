@@ -1,0 +1,78 @@
+html, body {
+width: 100%;
+background-color: rgb(141, 169, 169);
+font-family: 'gotham';
+
+}
+
+
+
+@font-face {
+    font-family: 'gotham' ;
+    src: url('fonts/flamante-roma-medium-webfont.woff') format('woff');
+}
+
+
+
+section {
+    padding-top: 8rem;
+    font-family: 'gotham';
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+h1{
+    font-size: 4rem;
+}
+
+section p{
+    font-size: 2rem;
+}
+
+section2{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+section3 {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+section4 {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+section5 {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.profile_img img{
+
+height: 20rem;
+    width: 20rem;
+    border-radius: 100rem;
+
+
+};
+
+
+
+
