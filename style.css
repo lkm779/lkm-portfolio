@@ -1,9 +1,13 @@
-html, body {
-width: 100%;
-background-color: rgb(141, 169, 169);
-font-family: 'gotham';
+html {
+    
+}    
 
-}
+
+
+
+
+
+
 
 
 
@@ -12,67 +16,245 @@ font-family: 'gotham';
     src: url('fonts/flamante-roma-medium-webfont.woff') format('woff');
 }
 
+body{
+    background-color: rgb(212, 240, 253);
+    width: 100%;
+        font-family: 'gotham';
+        font-size: 1rem;
+        animation: 10s forward;
+        
+    
+}
+
+h2{
+
+    font-size: 2rem;
+}
+
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 0.5px 0.5px rgb(255, 255, 255);
+    font-family: 'gotham';
+    display: inline-block;
+    padding: 3rem;
+    
+}    
+
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}    
+
+.image{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 100%;
+
+}    
+
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+
+.image:hover{
+    transition: 800ms;
+    opacity: 0.5;
+    transform: scale(1.1);
+    filter: blur(2px);
+
+}
+
+
+
+
 
 
 section {
-    padding-top: 8rem;
     font-family: 'gotham';
     display: flex;
     align-items: center;
     flex-direction: column;
-
+    padding-bottom: 15rem;
+    
+    
 }
+
 
 h1{
+    padding-top: 7rem;
     font-size: 4rem;
 }
+
+
+h1:hover{
+    transition: 800ms;
+    opacity: 0.5;
+    transform: scale(1.1);
+    filter: blur(2px);
+}
+
+
+
+.sub-heading{
+    padding: 5rem;
+    text-align: center;
+}
+
+
 
 section p{
     font-size: 2rem;
 }
 
-section2{
+section p:hover{
+    
+    font-size: 2rem;
+    transition: 800ms;
+    opacity: 0.9;
+    font-style: bold;
+    transform: scale(1.1);
+    
+}
 
+
+button{
+    
+    text-decoration: none;
+    decoration:none;
+    background-color: inherit;
+    
+}
+
+button:hover{
+    font-size: 2rem;
+    transition: 800ms;
+    opacity: 0.9;
+    font-style: bold;
+    transform: scale(1.1);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section2{
+    
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 5rem;
+    
 }
 
+b{
+    font-family: 'arial';
+    font-weight: bolder;
+}
 
 
 
 section3 {
-
+    
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 5rem;
+    
 }
 
 section4 {
-
+    
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 5rem;
 }
 
 section5 {
-
+    
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 5rem;
+    
+}
+
+section6 {
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20rem;
+    
+}
+
+
+.contact_links img:hover{
+    
+    transition: 500ms;
+    transform: scale(2.2);
+    
+    
+}
+
+ul.contact_links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.contact_links a img{
+    display: flex;
+    padding: 2rem;
+    justify-content: flex-start;
+
+}
+
+ul.contact_links p{
+padding-right: 70rem;
+
 }
 
 
 
-.profile_img img{
 
-height: 20rem;
-    width: 20rem;
-    border-radius: 100rem;
+a  {
+        text-decoration: none;
+        color: rgb(8, 0, 255);
+        list-style: none;
+    } 
 
-
-};
-
+        li {
+            list-style: none;
+        }
 
 
 
