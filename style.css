@@ -1,26 +1,33 @@
 
-
-
-
-
-
-
-
-
 @font-face {
     font-family: 'gotham' ;
     src: url('fonts/flamante-roma-medium-webfont.woff') format('woff');
 }
 
+
+html{
+
+width:100%;
+cursor:default;
+scroll-behavior:smooth;
+}
+
 body{
-    background-color: rgb(212, 240, 253);
-    width: 100%;
+        margin: 0;
         font-family: 'gotham';
         font-size: 1rem;
         animation: 10s forward;
-        
+        cursor: url(img/iconmonstr-phone-1.svg);
     
 }
+
+
+#sec-1{
+    background-color:rgb(212, 240, 253) ;
+}
+
+
+
 
 h2{
 
@@ -82,7 +89,7 @@ section {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-bottom: 15rem;
+    
     
     
 }
@@ -125,16 +132,24 @@ section p:hover{
 }
 
 
+
+
+
 button{
     
     text-decoration: none;
     decoration:none;
     background-color: inherit;
+    font-family: 'gotham';
+    border-radius: 1rem;
+    cursor:pointer;
     
 }
 
+
+
 button:hover{
-    font-size: 2rem;
+    font-size: 1rem;
     transition: 800ms;
     opacity: 0.9;
     font-style: bold;
@@ -142,6 +157,9 @@ button:hover{
     
 }
 
+.button-box{
+    padding: 7rem 0rem 1.2rem 0rem;
+}
 
 
 
@@ -154,7 +172,13 @@ button:hover{
 
 
 
+/*-------------------------------PART 2-------------------------------------------------*/
 
+
+/*
+#sec-2{
+background-color: white;
+}*/
 
 
 
@@ -164,7 +188,8 @@ section2{
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-bottom: 5rem;
+    padding: 5rem 0;
+
     
 }
 
@@ -229,13 +254,13 @@ ul.contact_links {
 
 .contact_links a img{
     display: flex;
-    padding: 2rem;
+    padding: 0 2rem;
     justify-content: flex-start;
 
 }
 
 ul.contact_links p{
-padding-right: 43rem;
+padding-right: 70rem;
 
 }
 
